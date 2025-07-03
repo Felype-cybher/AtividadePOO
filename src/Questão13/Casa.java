@@ -14,7 +14,7 @@ public class Casa {
     }
 
     public void listarComodos() {
-        System.out.println("Cômodos da casa:");
+        System.out.println("Cômodos:");
         for (Comodo comodo : comodos) {
             System.out.println("- " + comodo);
         }
